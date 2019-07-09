@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using vending_machine.Interfaces;
 
 namespace vending_machine.Models
 {

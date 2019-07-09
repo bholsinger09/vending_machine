@@ -1,4 +1,4 @@
-namespace vending_machine.Models
+namespace vending_machine.Interfaces
 {
   interface IPurchaseable
 
