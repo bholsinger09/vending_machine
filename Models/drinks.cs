@@ -6,6 +6,8 @@ namespace vending_machine.Models
     public string Name { get; set; }
     public string Cost { get; set; }
 
+    public bool Healthy { get; set; }
+
     public Drink(string name, string cost)
 
     {
