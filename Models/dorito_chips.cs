@@ -3,13 +3,13 @@ using System.Collections.Generic;
 namespace vending_machine.Models
 {
 
-  class Dorito_bag : ChipBag
+  class Dorito_bag : ChipBag, IPurchaseable
   {
 
     public List<Flavors> Flavors { get; set; }
     public bool Available { get; set; }
 
-    public Dorito_bag(string name, int cost, List<Flavors> flavor) : base(name, cost)
+    public Dorito_bag(string name, float cost, List<Flavors> flavor) : base(name, cost)
     {
       Flavors = flavor;
     }

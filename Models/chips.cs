@@ -5,9 +5,9 @@ namespace vending_machine.Models
   {
 
     public string Name { get; set; }
-    public int Cost { get; set; }
+    public float Cost { get; set; }
 
-    public ChipBag(string name, int cost)
+    public ChipBag(string name, float cost)
     {
       Name = name;
       Cost = cost;
